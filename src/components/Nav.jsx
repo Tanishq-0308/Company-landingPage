@@ -61,7 +61,7 @@ function Nav() {
         </button>
       </div>
       {!bar && (
-        <div className="fixed right-0 top-[120px] z-20 text-center w-full flex flex-col justigy-center items-center min-[1160px]:hidden ">
+        <div className="absolute right-0 top-[120px] z-20 text-center w-full flex flex-col justigy-center items-center min-[1160px]:hidden ">
           <ul className=" border p-4 w-[300px] font-medium flex flex-col gap-3 bg-black text-white rounded-3xl sm:text-xl sm:w-[500px]">
             <a href="">
               <li className=" hover:bg-cyan-100 transition duration-300 ease-in-out p-2 rounded-2xl">
